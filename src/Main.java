@@ -13,19 +13,28 @@ public class Main {
         int adunare = 123 + 456;
         System.out.println( adunare );
 
-        float impartire = 10 / 4;
-        System.out.println( impartire );
+        double a = 10;
+        double b = 4;
+        double c = a / b ;
+        System.out.println( c );
 
         int rezultat1 = -5 + 8 * 6;
         System.out.println( rezultat1 );
 
-        double rezultat2 = (55 + 9) % 9;
+        int rezultat2 = (55 + 9) % 9;
         System.out.println( rezultat2 );
 
-        float rezultat3 = 20 + -3*5 /8;
+        double d = 20;
+        double e = -3;
+        double f = 5;
+        double g = 8;
+        double rezultat3 = d + e*f /g;
         System.out.println( rezultat3 );
 
-        float rezultat4 = 5 + 15/3*2 - 8 % 3;
+        double h = 15;
+        double i = 3;
+        double j = 2;
+        double rezultat4 = f + h/i*j - g % i;
         System.out.println( rezultat4 );
 
 
